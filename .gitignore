@@ -138,3 +138,6 @@ dmypy.json
 
 # Visual Code
 .vscode
+
+# Environment Config File
+/.env
