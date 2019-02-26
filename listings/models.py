@@ -6,7 +6,11 @@ from realtors.models import Realtor
 
 
 class Listing(models.Model):
-    realtor = models.ForeignKey(Realtor, on_delete=models.DO_NOTHING)
+    realtor = models.ForeignKey(
+        Realtor,
+        on_delete=models.DO_NOTHING,
+        db_constraint=False
+    )
     title = models.CharField(max_length=200)
     address = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
