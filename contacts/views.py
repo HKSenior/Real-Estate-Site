@@ -2,6 +2,8 @@ from django.shortcuts import redirect
 from django.contrib import messages
 from django.core.mail import send_mail
 
+from decouple import config
+
 from .models import Contact
 
 
@@ -44,14 +46,14 @@ def contact(request):
         contact.save()
 
         # Send email
-        # send_mail(
-        #     'Property Listing Inquiry',
-        #     'There has been an inquiry for '
-        #     + listing + '. Sign into the admin panal for more info.',
-        #     '',
-        #     [realtor_email, email],
-        #     fail_silently=False
-        # )
+        send_mail(
+            'Property Listing Inquiry',
+            'There has been an inquiry for '
+            + listing + '. Sign into the admin panal for more info.',
+            '',
+            [realtor_email, email],
+            fail_silently=config('EMAIL_FAIL_SILENTLY', cast=bool)
+        )
 
         messages.success(
             request,
