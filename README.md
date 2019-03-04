@@ -1,15 +1,15 @@
 # Real Estate Site
-###### Home Page
+### Home Page
 ![Home Page](https://i.imgur.com/c9kYp92.png)
 
-###### About Page
+### About Page
 ![About Page](https://i.imgur.com/9rapiWM.png)
 
-###### Featured Listings Page
+### Featured Listings Page
 ![Featured Listings Page](https://i.imgur.com/K7s4BSb.png)
 
 ## URL
-<https://wwww.hassani-realestate.co>
+<https://www.hassani-realestate.co>
 
 # Setting up Development Environment
 ## Creating Virtual Environment
