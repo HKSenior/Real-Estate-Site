@@ -1,18 +1,16 @@
-# Real Estate Site
-### Home Page
-![Home Page](https://i.imgur.com/c9kYp92.png)
-
-### About Page
-![About Page](https://i.imgur.com/9rapiWM.png)
-
-### Featured Listings Page
-![Featured Listings Page](https://i.imgur.com/K7s4BSb.png)
+<div align="center">
+    <h1>Real Estate Site</h1>
+    <a href="https://www.hassani-realestate.co">Visit Site</a>
+    <h3>Home Page</h3>
+    <img src="https://i.imgur.com/c9kYp92.png" title="Real Estate Home Page"/>
+</div>
 
 ## URL
-<https://www.hassani-realestate.co>
+<>
+</div>
 
 # Setting up Development Environment
-## Creating Virtual Environment
+### Creating Virtual Environment
 ```
 mkdir -p prj && cd prg
 git clone https://github.com/HKSenior/Real-Estate-Site.git
@@ -21,7 +19,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## To exit the Virtual Environment
+### To exit the Virtual Environment
 ```
 deactivate
 ```
