@@ -1,12 +1,7 @@
 <div align="center">
     <h1>Real Estate Site</h1>
     <a href="https://www.hassani-realestate.co">Visit Site</a>
-    <h3>Home Page</h3>
     <img src="https://i.imgur.com/c9kYp92.png" title="Real Estate Home Page"/>
-</div>
-
-## URL
-<>
 </div>
 
 # Setting up Development Environment
